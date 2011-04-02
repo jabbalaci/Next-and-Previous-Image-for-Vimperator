@@ -1,0 +1,4 @@
+" Next Image and Previous Image bookmarklets for vimperator
+" u - up (next image), d - down (previous image)
+:map <silent> <A-u> :js next_image()<cr>
+:map <silent> <A-d> :js previous_image()<cr>

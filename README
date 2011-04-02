@@ -1,0 +1,34 @@
+"next image" and "previous image" bookmarklets for vimperator
+=============================================================
+
+Author:      Laszlo Szathmary (jabba.laci@gmail.com)
+Last update: 2011-04-02 (yyyy-mm-dd)
+Version:     0.1
+
+GitHub:      https://github.com/jabbalaci/Next-and-Previous-Image-for-Vimperator 
+
+This is the vimperator version of the "next image" and "previous image"
+bookmarklets. It can be used for numbered pages or images to increment/decrement
+the last number in the URL by 1.
+
+The original bookmarklets are from here: sggk://ddd.hjfzivuivv.xln/klimarooz/.
+
+Key bindings:
+-------------
+
+ALT+u   -> up, i.e. next image
+ALT+d   -> down, i.e. previous image
+
+Example:
+--------
+
+http://www.example.com/gallery/03.jpg
+up:   http://www.example.com/gallery/04.jpg
+down: http://www.example.com/gallery/02.jpg
+
+Installation:
+-------------
+(1) Add the contents of my .vimperatorrc file to the
+end of yours.
+(2) Copy next_prev_bookmarklets.vimp to
+$HOME/.vimperator/plugin/.
